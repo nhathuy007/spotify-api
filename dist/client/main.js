@@ -91,7 +91,7 @@ module.exports = "nav {\r\n\tmargin-bottom: 20px;\r\n}\r\n/*# sourceMappingURL=d
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-expand-lg sticky-top navbar-light bg-light\">\r\n    <ul class=\"navbar-nav mr-auto\">\r\n      <li class=\"nav-item navbar-brand\">\r\n        <a class=\"navbar-brand\" href=\"/\">\r\n          Browsing spotify\r\n        </a>\r\n      </li>\r\n    </ul>\r\n    <ul class=\"navbar-nav navbar-right mr-auto\">\r\n      <li class=\"nav-item\">\r\n        <a class=\"btn btn-dark\" role=\"button\" href=\"http://localhost:8888/login\">Log in</a>\r\n      </li>\r\n    </ul>\r\n  </nav>\r\n<main class=\"container-fluid\">\r\n\t<router-outlet></router-outlet>\r\n</main>\r\n"
+module.exports = "<nav class=\"navbar navbar-expand-lg sticky-top navbar-light bg-light\">\r\n    <ul class=\"navbar-nav mr-auto\">\r\n      <li class=\"nav-item navbar-brand\">\r\n        <a class=\"navbar-brand\" href=\"/\">\r\n          Browsing spotify\r\n        </a>\r\n      </li>\r\n    </ul>\r\n    <ul class=\"navbar-nav navbar-right mr-auto\">\r\n      <li class=\"nav-item\">\r\n        <a class=\"btn btn-dark\" role=\"button\" href=\"http://localhost:8080/login\">Log in</a>\r\n      </li>\r\n    </ul>\r\n  </nav>\r\n<main class=\"container-fluid\">\r\n\t<router-outlet></router-outlet>\r\n</main>\r\n"
 
 /***/ }),
 
