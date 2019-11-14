@@ -7,7 +7,7 @@ var fs = require('fs');
 var loadedFiles = false;
 
 //Make sure to set the redirect URI in the Spotify app you create!
-var redirect_uri = 'https://spotify-webapi.herokuapp.com';
+var redirect_uri = 'https://spotify-webapi.herokuapp.com/callback';
 var my_client_id = null;
 var my_client_secret = null;
 
