@@ -1272,7 +1272,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var SpotifyService = /** @class */ (function () {
     function SpotifyService(http) {
         this.http = http;
-        this.expressBaseUrl = 'http://localhost:8888';
+        this.expressBaseUrl = 'https://spotify-webapi.herokuapp.com/';
     }
     SpotifyService.prototype.sendRequestToExpress = function (endpoint) {
         //TODO: use the injected http Service to make a get request to the Express endpoint and return the response.
